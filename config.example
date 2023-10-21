@@ -1,0 +1,4 @@
+#!/bin/bash
+PASSWORD_FILE=.password
+COOKIES_FILE=.cookies
+HXSELECT=/usr/local/sbin/hxselect
