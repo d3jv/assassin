@@ -1,5 +1,9 @@
 # Assassin
 
+## Dependencies
+
+* `hxselect` from `html-xml-utils`
+
 ## config
 
 Create a config file in this folder with the name `assassin.conf` and the following contents:
@@ -7,7 +11,7 @@ Create a config file in this folder with the name `assassin.conf` and the follow
 #!/bin/bash                                # Set the environment vars with bash
 export PASSWORD_FILE=path/to/passwd        # Path to a file containing the brno.assassin.cz password on a single line (relative to this dir)
 export COOKIES_FILE=path/to/cookies        # Path to a file where the login script will store the session cookies (relative to this dir)
-export HXSELECT=/path/to/hxselect          # path to the hxselect executable (from html-xml-utils) Defaults to searching the PATH for "hxselect"
+export HXSELECT=/path/to/hxselect          # path to the hxselect executable. Defaults to searching the PATH for "hxselect"
 ```
 
 ## Usage
