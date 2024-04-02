@@ -16,6 +16,8 @@ export HXSELECT=/path/to/hxselect          # path to the hxselect executable. De
 
 ## Usage
 
+Best used with Discord webhooks. Not sure if the format is widely used so it might not work with anything similar.
+
 * Log in to the website using `login.sh <username>`
 * Fetch family leaderboard: `rodiny.sh <webhook_url>` 
 * Fetch players leaderboard: `hraci.sh <webhook_url>`
